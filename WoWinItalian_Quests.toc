@@ -1,0 +1,14 @@
+﻿## Interface: 90001
+## Title: WoWinItalian-Quests
+## Version: 9.01
+## Notes: AddOn displays quests in Italian independently from realm language.
+## Author: Platine
+## eMail: platine.wow@gmail.com
+## WWW: https://panel.wowpopolsku.pl/quest_collector.php
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: QTR_PS, QTR_SAVED
+
+QuestData_IT.lua
+WoWinItalian_Quests.lua
+WoWinItalian_Quests.xml
