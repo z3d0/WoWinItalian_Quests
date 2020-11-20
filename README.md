@@ -30,7 +30,8 @@ WTF/Account/**Nome_account**/SavedVariables/**Quest_Collector.lua**
 WTF/Account/**Nome_account**/SavedVariables/**Bubble_Collector.lua**  
 WTF/Account/**Nome_account**/SavedVariables/**Gossip_Collector.lua**  
 
-e caricarli nell'apposita sezione del sito https://panel.wowpopolsku.pl/quest_collector.php
+e caricarli nell'apposita sezione del sito https://panel.wowpopolsku.pl/quest_collector.php   
+In breve tempo i creatori dell'addon inseriranno i nuovi testi forniti
 
 ## Come posso segnalare un errore o suggerire una traduzione migliore?
 
