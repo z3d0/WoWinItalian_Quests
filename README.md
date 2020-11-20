@@ -35,4 +35,4 @@ In breve tempo i creatori dell'addon inseriranno i nuovi testi forniti
 
 ## Come posso segnalare un errore o suggerire una traduzione migliore?
 
-Per fare una segnalazione, cliccare su Issue > New Issue. Specificare l'ID della quest.
+Per fare una segnalazione, cliccare su **Issues > New Issue** nel menù in alto. Specificare l'ID della quest.
