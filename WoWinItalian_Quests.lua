@@ -69,31 +69,31 @@ local Original_Font1 = _font1;
 local Original_Font2 = _font2;
 local p_race = {
       [1] = { enUS = "Blood Elf", deDE2="Blutelf", deDE3="Blutelfe", frFR2="Elfe de sang", frFR3="Elfe de sang", esES2="Elfo de sangre", esES3="Elfa de sangre", itIT2="Elfo del Sangue", itIT3="Elfa del Sangue", ptBR2="Elfo Sangrento", ptBR3IT="Elfa Sangrenta", ruRU2="Эльф крови", ruRU3="Эльфийка крови" }, 
-      [2] = { enUS = "Dark Iron Dwarf", deDE2="", deDE3="", frFR2="", frFR3="", esES2="", esES3="", itIT2="", itIT3="", ptBR2="", ptBR3IT="", ruRU2="", ruRU3="" },
+      [2] = { enUS = "Dark Iron Dwarf", deDE2="", deDE3="", frFR2="", frFR3="", esES2="", esES3="", itIT2="Nano Ferroscuro", itIT3="Nana Ferroscuro", ptBR2="", ptBR3IT="", ruRU2="", ruRU3="" },
       [3] = { enUS = "Draenei", deDE2="Draenei", deDE3="Draenei", frFR2="Draenei", frFR3="Draenei", esES2="Draenei", esES3="Draenei", itIT2="Draenei", itIT3="Draenei", ptBR2="Draenei", ptBR3IT="Draeneia", ruRU2="Дреней", ruRU3="Дренейка" },
       [4] = { enUS = "Dwarf", deDE2="Zwerg", deDE3="Zwergin", frFR2="Nain", frFR3="Naine", esES2="Enano", esES3="Enana", itIT2="Nano", itIT3="Nana", ptBR2="Anão", ptBR3IT="Anã", ruRU2="Дворф", ruRU3="Дворфийка" },
       [5] = { enUS = "Gnome", deDE2="Gnom", deDE3="Gnom", frFR2="Gnome", frFR3="Gnome", esES2="Gnomo", esES3="Gnoma", itIT2="Gnomo", itIT3="Gnoma", ptBR2="Gnomo", ptBR3IT="Gnomida", ruRU2="Гном", ruRU3="Гномка" },
       [6] = { enUS = "Goblin", deDE2="Goblin", deDE3="Goblin", frFR2="Gobelin", frFR3="Gobeline", esES2="Goblin", esES3="Goblin", itIT2="Goblin", itIT3="Goblin", ptBR2="Goblin", ptBR3IT="Goblina", ruRU2="Гоблин", ruRU3="Гоблин" },
-      [7] = { enUS = "Highmountain Tauren", deDE2="", deDE3="", frFR2="", frFR3="", esES2="", esES3="", itIT2="", itIT3="", ptBR2="", ptBR3IT="", ruRU2="", ruRU3="" },
-      [8] = { enUS = "Human", deDE2="Mensch", deDE3="Mensch", frFR2="Humain", frFR3="Humaine", esES2="Humano", esES3="Humana", itIT2="Omano", itIT3="Umana", ptBR2="Humano", ptBR3IT="Humana", ruRU2="Человек", ruRU3="Человек" },
-      [9] = { enUS = "Kul Tiran Human", deDE2="", deDE3="", frFR2="", frFR3="", esES2="", esES3="", itIT2="", itIT3="", ptBR2="", ptBR3IT="", ruRU2="", ruRU3="" },
-      [10] = { enUS = "Lightforged Draenei", deDE2="", deDE3="", frFR2="", frFR3="", esES2="", esES3="", itIT2="", itIT3="", ptBR2="", ptBR3IT="", ruRU2="", ruRU3="" },
-      [11] = { enUS = "Mag'har Orc", deDE2="", deDE3="", frFR2="", frFR3="", esES2="", esES3="", itIT2="", itIT3="", ptBR2="", ptBR3IT="", ruRU2="", ruRU3="" },
-      [12] = { enUS = "Nightborne", deDE2="", deDE3="", frFR2="", frFR3="", esES2="", esES3="", itIT2="", itIT3="", ptBR2="", ptBR3IT="", ruRU2="", ruRU3="" },
+      [7] = { enUS = "Highmountain Tauren", deDE2="", deDE3="", frFR2="", frFR3="", esES2="", esES3="", itIT2="Tauren di Altomonte", itIT3="Tauren di Altomonte", ptBR2="", ptBR3IT="", ruRU2="", ruRU3="" },
+      [8] = { enUS = "Human", deDE2="Mensch", deDE3="Mensch", frFR2="Humain", frFR3="Humaine", esES2="Humano", esES3="Humana", itIT2="Umano", itIT3="Umana", ptBR2="Humano", ptBR3IT="Humana", ruRU2="Человек", ruRU3="Человек" },
+      [9] = { enUS = "Kul Tiran Human", deDE2="", deDE3="", frFR2="", frFR3="", esES2="", esES3="", itIT2="Umano di Kul Tiras", itIT3="Umana di Kul Tiras", ptBR2="", ptBR3IT="", ruRU2="", ruRU3="" },
+      [10] = { enUS = "Lightforged Draenei", deDE2="", deDE3="", frFR2="", frFR3="", esES2="", esES3="", itIT2="Draenei Forgialuce", itIT3="Draenei Forgialuce", ptBR2="", ptBR3IT="", ruRU2="", ruRU3="" },
+      [11] = { enUS = "Mag'har Orc", deDE2="", deDE3="", frFR2="", frFR3="", esES2="", esES3="", itIT2="Orco Mag'har", itIT3="Orchessa Mag'har", ptBR2="", ptBR3IT="", ruRU2="", ruRU3="" },
+      [12] = { enUS = "Nightborne", deDE2="", deDE3="", frFR2="", frFR3="", esES2="", esES3="", itIT2="Nobile oscuro", itIT3="Nobilessa oscura", ptBR2="", ptBR3IT="", ruRU2="", ruRU3="" },
       [13] = { enUS = "Night Elf", deDE2="Nachtelf", deDE3="Nachtelfe", frFR2="Elfe de la nuit", frFR3="Elfe de la nuit", esES2="Elfo de la noche", esES3="Elfa de la noche", itIT2="Elfo della Notte", itIT3="Elfa della Notte", ptBR2="Elfo Noturno", ptBR3IT="Elfa Noturna", ruRU2="Ночной эльф", ruRU3="Ночная эльфийка" },
       [14] = { enUS = "Orc", deDE2="Orc", deDE3="Orc", frFR2="Orc", frFR3="Orque", esES2="Orco", esES3="Orco", itIT2="Orco", itIT3="Orchessa", ptBR2="Orc", ptBR3IT="Orquisa", ruRU2="Орк", ruRU3="Орчиха" },
       [15] = { enUS = "Pandaren", deDE2="Pandaren", deDE3="Pandaren", frFR2="Pandaren", frFR3="Pandarène", esES2="Pandaren", esES3="Pandaren", itIT2="Pandaren", itIT3="Pandaren", ptBR2="Pandaren", ptBR3IT="Pandarena", ruRU2="", ruRU3="" },
       [16] = { enUS = "Tauren", deDE2="Tauren", deDE3="Tauren", frFR2="Tauren", frFR3="Taurène", esES2="Tauren", esES3="Tauren", itIT2="Tauren", itIT3="Tauren", ptBR2="Tauren", ptBR3IT="Taurena", ruRU2="Таурен", ruRU3="Тауренка" },
       [17] = { enUS = "Troll", deDE2="Troll", deDE3="Troll", frFR2="Troll", frFR3="Trollesse", esES2="Trol", esES3="Trol", itIT2="Troll", itIT3="Troll", ptBR2="Troll", ptBR3IT="Trolesa", ruRU2="Тролль", ruRU3="Тролль" },
-      [18] = { enUS = "Undead", deDE2="Untoter", deDE3="Untote", frFR2="Mort-vivant", frFR3="Moort-vivante", esES2="No-muerto", esES3="No-muerta", itIT2="Non Morto", itIT3="Non Morta", ptBR2="Morto-vivo", ptBR3IT="Morto-viva", ruRU2="Нежить", ruRU3="Нежить" },
-      [19] = { enUS = "Void Elf", deDE2="", deDE3="", frFR2="", frFR3="", esES2="", esES3="", itIT2="", itIT3="", ptBR2="", ptBR3IT="", ruRU2="", ruRU3="" },
+      [18] = { enUS = "Undead", deDE2="Untoter", deDE3="Untote", frFR2="Mort-vivant", frFR3="Moort-vivante", esES2="No-muerto", esES3="No-muerta", itIT2="Non morto", itIT3="Non morta", ptBR2="Morto-vivo", ptBR3IT="Morto-viva", ruRU2="Нежить", ruRU3="Нежить" },
+      [19] = { enUS = "Void Elf", deDE2="", deDE3="", frFR2="", frFR3="", esES2="", esES3="", itIT2="Elfo del Vuoto", itIT3="Elfa del Vuoto", ptBR2="", ptBR3IT="", ruRU2="", ruRU3="" },
       [20] = { enUS = "Worgen", deDE2="Worgen", deDE3="Wergen", frFR2="Worgen", frFR3="Worgen", esES2="Huargen", esES3="Huargen", itIT2="Worgen", itIT3="Worgen", ptBR2="Worgen", ptBR3IT="Worgerin", ruRU2="Ворген", ruRU3="Ворген" },
-      [21] = { enUS = "Zandalari Troll", deDE2="", deDE3="", frFR2="", frFR3="", esES2="", esES3="", itIT2="", itIT3="", ptBR2="", ptBR3IT="", ruRU2="", ruRU3="" } }
+      [21] = { enUS = "Zandalari Troll", deDE2="", deDE3="", frFR2="", frFR3="", esES2="", esES3="", itIT2="Troll Zandalari", itIT3="Troll Zandalari", ptBR2="", ptBR3IT="", ruRU2="", ruRU3="" } }
 local p_class = {
-      [1] = { enUS = "Death Knight", deDE2="Todesrichter", deDE3="Todesrichter", frFR2="Chavalier de la mort", frFR3="Chavalier de la mort", esES2="Caballero de la Muerte", esES3="Caballero de la Muerte", itIT2="Cavaliere della Morte", itIT3="Cavaliere della Morte", ptBR2="Cavaliero da Morte", ptBR3IT="Cavaleira da Morte", ruRU2="Рыцарь смерти", ruRU3="Рыцарь смерти" },
-      [2] = { enUS = "Demon Hunter", deDE2="", deDE3="", frFR2="", frFR3="", esES2="", esES3="", itIT2="", itIT3="", ptBR2="", ptBR3IT="", ruRU2="Охотник на демонов", ruRU3="Охотница на демонов" },
+      [1] = { enUS = "Death Knight", deDE2="Todesrichter", deDE3="Todesrichter", frFR2="Chavalier de la mort", frFR3="Chavalier de la mort", esES2="Caballero de la Muerte", esES3="Caballero de la Muerte", itIT2="Cavaliere della Morte", itIT3="Cavaliera della Morte", ptBR2="Cavaliero da Morte", ptBR3IT="Cavaleira da Morte", ruRU2="Рыцарь смерти", ruRU3="Рыцарь смерти" },
+      [2] = { enUS = "Demon Hunter", deDE2="", deDE3="", frFR2="", frFR3="", esES2="", esES3="", itIT2="Cacciatore di Demoni", itIT3="Cacciatrice di Demoni", ptBR2="", ptBR3IT="", ruRU2="Охотник на демонов", ruRU3="Охотница на демонов" },
       [3] = { enUS = "Druid", deDE2="Druide", deDE3="Druidin", frFR2="Druide", frFR3="Druidesse", esES2="Druido", esES3="Driuda", itIT2="Druido", itIT3="Druida", ptBR2="Druida", ptBR3IT="Druidesa", ruRU2="Друид", ruRU3="Друид" },
-      [4] = { enUS = "Hunter", deDE2="Jäger", deDE3="Jägerin", frFR2="Chasseur", frFR3="Chasseresse", esES2="Cazador", esES3="Cazadora", itIT2="Cacciotore", itIT3="Cacciotrice", ptBR2="Caçador", ptBR3IT="Caçadora", ruRU2="Охотник", ruRU3="Охотница" },
+      [4] = { enUS = "Hunter", deDE2="Jäger", deDE3="Jägerin", frFR2="Chasseur", frFR3="Chasseresse", esES2="Cazador", esES3="Cazadora", itIT2="Cacciatore", itIT3="Cacciatrice", ptBR2="Caçador", ptBR3IT="Caçadora", ruRU2="Охотник", ruRU3="Охотница" },
       [5] = { enUS = "Mage", deDE2="Magier", deDE3="Magierin", frFR2="Mage", frFR3="Mage", esES2="Mago", esES3="Maga", itIT2="Mago", itIT3="Maga", ptBR2="Mago", ptBR3IT="Maga", ruRU2="Маг", ruRU3="Маг" },
       [6] = { enUS = "Monk", deDE2="Mönch", deDE3="Mönch", frFR2="Moine", frFR3="Moniale", esES2="Monje", esES3="Monje", itIT2="Monaco", itIT3="Monaca", ptBR2="Monge", ptBR3IT="Monja", ruRU2="Монах", ruRU3="Монахиня" },
       [7] = { enUS = "Paladin", deDE2="Paladin", deDE3="Paladin", frFR2="Paladin", frFR3="Paladin", esES2="Paladin", esES3="Paladin", itIT2="Paladino", itIT3="Paladina", ptBR2="Paladino", ptBR3IT="Paladina", ruRU2="Паладин", ruRU3="Паладин" },
@@ -101,7 +101,7 @@ local p_class = {
       [9] = { enUS = "Rogue", deDE2="Schurke", deDE3="Schurin", frFR2="Voleur", frFR3="Voleuse", esES2="Picaro", esES3="Picara", itIT2="Ladro", itIT3="Ladra", ptBR2="Ladino", ptBR3IT="Ladina", ruRU2="Разгойник", ruRU3="Разгойница" },
       [10] = { enUS = "Shaman", deDE2="Schamane", deDE3="Schamanin", frFR2="Chaman", frFR3="Chamane", esES2="Chamán", esES3="Chamán", itIT2="Sciamano", itIT3="Sciamana", ptBR2="Xamã", ptBR3IT="Xamã", ruRU2="Шаман", ruRU3="Шаманка" },
       [11] = { enUS = "Warlock", deDE2="Hexenmaister", deDE3="Hexenmaisterin", frFR2="Démoniste", frFR3="Démoniste", esES2="Brujo", esES3="Bruja", itIT2="Stregone", itIT3="Strega", ptBR2="Bruxo", ptBR3IT="Bruxa", ruRU2="Чернокнижник", ruRU3="Чернокнижница" },
-      [12] = { enUS = "Warrior", deDE2="Krieger", deDE3="Kriegerin", frFR2="Guerrier", frFR3="Guerrière", esES2="Guerrero", esES3="Guerrera", itIT2="Guerrino", itIT3="Guerrina", ptBR2="Guerreito", ptBR3IT="Guerreita", ruRU2="Воин", ruRU3="Воин" } }
+      [12] = { enUS = "Warrior", deDE2="Krieger", deDE3="Kriegerin", frFR2="Guerrier", frFR3="Guerrière", esES2="Guerrero", esES3="Guerrera", itIT2="Guerriero", itIT3="Guerriera", ptBR2="Guerreito", ptBR3IT="Guerreita", ruRU2="Воин", ruRU3="Воин" } }
 
 if (QTR_locale=="enUS") then
    if (QTR_sex==2) then     -- Male
